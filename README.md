@@ -29,4 +29,4 @@ tar xzf $results -C ./
 cat plugins/example-bats/results/global/out*
 ```
 
-**Note:** Results are in TAP format.
+**Note:** Results are in [TAP format](http://testanything.org).
