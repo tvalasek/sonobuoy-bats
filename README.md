@@ -13,7 +13,7 @@ sonobuoy gen plugin \
 --arg="./example2.bats" > example-bats.yaml
 ```
 
-Note: you can select which Bats to run. Bats to run are in `bats` folder. If you want create new `.bats` file make sure you build new `bats-runner` Docker image. (`docker build -t bats-runner .`) and (reference it)[#Generate custom plugin yaml] 
+Note: you can select which Bats to run. Bats to run are in `bats` folder. If you want create new `.bats` file make sure you build new `bats-runner` Docker image. (`docker build -t bats-runner .`) and [reference it](#generate-custom-plugin-yaml) 
 
 ## Run Sonobuoy with custom plugin
 
