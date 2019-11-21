@@ -3,6 +3,10 @@ Example of running Bats (TAP-compliant testing framework for Bash) in Sonobuoy
 
 # How to
 
+## Write Bats tests
+
+Create your own, or use pre-created `.bats` tests in `bats` folder.
+
 ## Generate custom plugin yaml
 
 ```
