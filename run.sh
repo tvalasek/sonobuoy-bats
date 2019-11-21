@@ -33,7 +33,7 @@ fi
 # to preserve spacing (using "$@" will lose that information).
 i=0
 while [ "$1" != "" ]; do
-	# Run each arg as a command and save the TAP output in the results directory.
+	# Run each .bats file as a argument and save the TAP output in the results directory.
     $HOME/bin/bats -t "$1" > ${results_dir}/out${i}
     i=$((i + 1))
 
