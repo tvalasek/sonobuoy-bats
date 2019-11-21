@@ -1,5 +1,5 @@
 # sonobuoy-bats
-Example of running Bats (TAP-compliant testing framework for Bash) in Sonobuoy
+Example of running [Bats](https://github.com/bats-core/bats-core) (TAP-compliant testing framework for Bash) in Sonobuoy
 
 # How to
 
